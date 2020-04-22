@@ -1,0 +1,29 @@
+{
+  "world": {
+    "height": 405,
+    "PX_PER_UNIT": 40
+  },
+  "player": {
+    "startPosition": {
+      "x": 80,
+      "y": 202
+    },
+    "xSpeed": 3,
+    "X_CRUISE_SPEED": 20,
+    "RUN_IN": 100,
+    "RUN_OUT": 100,
+    "SUBLEVEL_GAP": 20
+  },
+  "path": {
+    "gradients": [
+      1,
+      0.5,
+      0,
+      -0.5,
+      -1
+    ],
+    "MIN_ALLOWED_LENGTH": 4,
+    "MAX_ALLOWED_LENGTH": 8,
+    "NO_OF_GRADIENTS": 9
+  }
+}
